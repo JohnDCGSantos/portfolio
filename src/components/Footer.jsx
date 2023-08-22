@@ -1,7 +1,7 @@
 import '../Footer.css'
 import { useEffect, useState } from 'react'
 
-import { FaHome, FaReact, FaNodeJs, FaCss3Alt, FaBootstrap } from 'react-icons/fa'
+import { FaHome, FaReact, FaNodeJs, FaCss3Alt, FaBootstrap } from 'react-icons/Fa'
 
 import { BiLogoMongodb } from 'react-icons/Bi'
 import { TbBrandJavascript } from 'react-icons/Tb'
