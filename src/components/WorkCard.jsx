@@ -1,4 +1,4 @@
-import '..//Workcard.css'
+import '../WorkCard.css'
 
 const WorkCard = WorkCardData => {
   return (
