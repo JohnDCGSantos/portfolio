@@ -1,4 +1,4 @@
-import '..//Workcard.css'
+import '../Workcard.css'
 import { Link } from 'react-router-dom'
 import WorkCard from './WorkCard'
 import WorkCardData from './workCardData'
