@@ -3,7 +3,7 @@ import ImgProject from '../components/ImgProject'
 function Contacts() {
   return (
     <div>
-      <ImgProject title='Contacts' description='bla bla bla bla' />
+      <ImgProject title='Contacts' description='' />
       <Form />
     </div>
   )
