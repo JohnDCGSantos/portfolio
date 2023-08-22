@@ -1,9 +1,10 @@
-function Home() {
+import MainSection from '../components/MainSection'
+
+const Home = () => {
   return (
     <div>
-      <h1>Home</h1>
+      <MainSection />
     </div>
   )
 }
-
 export default Home

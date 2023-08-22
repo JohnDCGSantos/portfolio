@@ -1,9 +1,11 @@
-const Contacts = () => {
+import Form from '../components/ContactInfo'
+import ImgProject from '../components/ImgProject'
+function Contacts() {
   return (
-    <>
-      <h1>Contacts</h1>
-    </>
+    <div>
+      <ImgProject title='Contacts' description='bla bla bla bla' />
+      <Form />
+    </div>
   )
 }
-
 export default Contacts

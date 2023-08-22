@@ -1,8 +1,12 @@
+import ImgProject from '../components/ImgProject'
+import Work from '../components/Work'
+
 const Projects = () => {
   return (
-    <>
-      <h1>My Projects</h1>
-    </>
+    <div>
+      <ImgProject title='My projects' description='' />
+      <Work />
+    </div>
   )
 }
 

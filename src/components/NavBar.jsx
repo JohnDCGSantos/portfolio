@@ -1,53 +1,46 @@
 import { Link } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
-
+import { FaBars } from 'react-icons/fa'
+import { FaTimes } from 'react-icons/fa'
+import { useState } from 'react'
+import '../NavBar.css'
 const NavBar = () => {
+  const [click, setClick] = useState(false)
+
+  const handleClick = () => setClick(!click)
+  const closeMenu = () => setClick(!click)
+
   return (
-    <nav className='navbar navbar-expand-lg bg-body-tertiary'>
-      <div className='container'>
-        <div className='container-fluid'>
-          <Link className='navbar-brand' to={'/'}>
-            {' '}
-            Home
-          </Link>
-          <button
-            className='navbar-toggler'
-            type='button'
-            data-bs-toggle='collapse'
-            data-bs-target='#navbarNav'
-            aria-controls='navbarNav'
-            aria-expanded='false'
-            aria-label='Toggle navigation'
-          >
-            <span className='navbar-toggler-icon'></span>
-          </button>
-          <div className='collapse navbar-collapse' id='navbarNav'>
-            <ul className='navbar-nav'>
-              <li className='nav-item'>
-                <Link className='nav-link active' aria-current='page' to={'/about'}>
-                  {' '}
-                  About
-                </Link>
-              </li>
-              <li className='nav-item'>
-                <Link className='nav-link' to={'/projects'}>
-                  Projects
-                </Link>
-              </li>
-              <li className='nav-item'>
-                <Link className='nav-link' to='/contacts'>
-                  Contacts
-                </Link>
-              </li>
-            </ul>
-          </div>
-        </div>
+    <div className='header'>
+      <div>
+        <Link to='/'>
+          <h1>Portfolio</h1>
+        </Link>
       </div>
-    </nav>
+      <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+        <li>
+          <Link to='/About' onClick={closeMenu}>
+            About
+          </Link>
+        </li>
+
+        <li>
+          <Link to='/Projects' onClick={closeMenu}>
+            Projects
+          </Link>
+        </li>
+
+        <li>
+          <Link to='/contacts' onClick={closeMenu}>
+            Contact
+          </Link>
+        </li>
+      </ul>
+      <div className='hamburger' onClick={handleClick}>
+        {click ? <FaTimes /> : <FaBars />}
+      </div>
+    </div>
   )
-}
-{
-  /*<Link ClassName='nav-link active' aria-current='page' to={'/Feed'}>*/
 }
 
 export default NavBar

@@ -1,0 +1,46 @@
+
+
+
+.footer{
+  
+  height: 10vh;
+  
+;
+  color:aliceblue;
+  padding: 0px;
+  text-align: center;
+  position: fixed;
+  bottom: 0; /* Position the footer at the bottom of the viewport */
+  width: 100%; 
+  display: flex;
+  visibility: hidden;
+  justify-content: space-between;
+  
+  align-items: center
+}
+
+
+.home{
+  display: flex;
+  margin-left: 20px;
+}
+
+h8 {
+  font-size: 10px;
+  margin-left:4px;
+}
+
+
+.sk{
+  margin-right: 20px;
+  color: red;
+ 
+}
+
+
+
+
+
+
+
+

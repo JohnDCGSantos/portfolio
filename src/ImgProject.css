@@ -1,0 +1,59 @@
+
+.imgProject{
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 60vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+div.heading{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+  margin-left: 10px;
+  
+}
+.imgProject ::before{
+  content: "";
+  background: url(./pics2.jpg)  ;
+  position:absolute;
+  height: 80vh;
+  width: 100%;
+  /*background-size: cover;
+  background-position: center top;*/
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  
+};
+
+
+
+
+.imgProject h1{
+  font-size: 2.4rem;
+}
+
+
+.imgProject p{
+  font-size: 1.4;
+  text-align: center;
+}
+
+@media screen and (max-width: 997px){
+
+  .imgProject h1{
+  font-size: 2rem;
+}
+
+}
