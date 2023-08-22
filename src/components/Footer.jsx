@@ -2,11 +2,11 @@ import '../Footer.css'
 import { useEffect, useState } from 'react'
 
 import { FaHome, FaReact, FaNodeJs, FaCss3Alt, FaBootstrap } from 'react-icons/fa'
-
-import { BiLogoMongodb } from 'react-icons/Bi'
-import { TbBrandJavascript } from 'react-icons/Tb'
-import { SiVite } from 'react-icons/Si'
-
+import { AiFillHtml5 } from 'react-icons/ai'
+import { BiLogoMongodb } from 'react-icons/bi'
+import { TbBrandJavascript } from 'react-icons/tb'
+import { SiVite } from 'react-icons/si'
+import { BsGit } from 'react-icons/bs'
 const Footer = () => {
   const [isFooterVisible, setFooterVisibility] = useState(false)
 
@@ -29,15 +29,16 @@ const Footer = () => {
   return (
     <div className={`footer ${isFooterVisible ? 'visible' : ''}`}>
       <div className='home'>
-        <FaHome />
-
-        <h8>Porto, Portugal</h8>
+        <h8>
+          {' '}
+          <FaHome /> Porto, Portugal
+        </h8>
       </div>
       <div className='sk'>
-        {/* <BsGit style={{ fill: 'orange', margin: '5px' }} />*/}
+        <BsGit style={{ fill: 'orange', margin: '5px' }} />
         <FaReact style={{ fill: 'aqua', margin: '5px' }} />
         <BiLogoMongodb style={{ fill: 'green', margin: '5px' }} />
-        {/* <AiFillHtml5 style={{ fill: 'orange', margin: '5px' }} />*/}
+        <AiFillHtml5 style={{ fill: 'orange', margin: '5px' }} />
         <FaNodeJs style={{ fill: 'olive', margin: '5px' }} />
         <TbBrandJavascript style={{ fill: 'yellow', margin: '5px' }} />
         <FaCss3Alt style={{ fill: 'blue', margin: '5px' }} />

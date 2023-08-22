@@ -1,6 +1,6 @@
 import '../ContactInfo.css' // You can create a CSS file for styling
-import { BsGithub, BsWhatsapp } from 'react-icons/Bs'
-import { AiOutlineMail, AiFillLinkedin } from 'react-icons/Ai'
+import { BsGithub, BsWhatsapp } from 'react-icons/bs'
+import { AiOutlineMail, AiFillLinkedin } from 'react-icons/ai'
 
 const ContactInfo = () => {
   return (

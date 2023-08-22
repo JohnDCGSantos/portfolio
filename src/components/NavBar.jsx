@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import { FaBars } from 'react-icons/fa'
-import { FaTimes } from 'react-icons/fa'
+import { FaBars, FaTimes } from 'react-icons/fa'
 import { useState } from 'react'
 import '../NavBar.css'
 const NavBar = () => {
