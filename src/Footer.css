@@ -1,11 +1,8 @@
 
 
 
-.footer{
-  
-  height: 10vh;
-  
-;
+.footer{ 
+  height: 10vh; 
   color:aliceblue;
   padding: 0px;
   text-align: center;
@@ -15,7 +12,6 @@
   display: flex;
   visibility: hidden;
   justify-content: space-between;
-  
   align-items: center
 }
 
