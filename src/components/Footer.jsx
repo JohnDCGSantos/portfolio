@@ -29,10 +29,8 @@ const Footer = () => {
   return (
     <div className={`footer ${isFooterVisible ? 'visible' : ''}`}>
       <div className='home'>
-        <h8>
-          {' '}
-          <FaHome /> Porto, Portugal
-        </h8>
+        {' '}
+        <FaHome /> Porto, Portugal
       </div>
       <div className='sk'>
         <BsGit style={{ fill: 'orange', margin: '5px' }} />
