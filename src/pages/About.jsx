@@ -1,5 +1,6 @@
 import ImgProject from '../components/ImgProject'
 import AboutContent from '../components/AboutContent'
+import Footer from '../components/Footer'
 /*function About() {
   return (
     <div>
@@ -18,6 +19,7 @@ function About() {
     <div>
       <ImgProject title='About me' description='' />
       <AboutContent />
+      <Footer />
     </div>
   )
 }
