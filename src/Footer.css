@@ -12,7 +12,8 @@
   display: flex;
   visibility: hidden;
   justify-content: space-between;
-  align-items: center
+  align-items: center;
+  flex-wrap:nowrap;
 }
 
 
@@ -21,19 +22,7 @@
   margin-left: 20px;
 }
 
-
-
-
 .sk{
   margin-right: 20px;
-  color: red;
- 
+  
 }
-
-
-
-
-
-
-
-
