@@ -18,13 +18,13 @@ const NavBar = () => {
       </div>
       <ul className={click ? 'nav-menu active' : 'nav-menu'}>
         <li>
-          <Link to='/About' onClick={closeMenu}>
+          <Link to='/about' onClick={closeMenu}>
             About
           </Link>
         </li>
 
         <li>
-          <Link to='/Projects' onClick={closeMenu}>
+          <Link to='/projects' onClick={closeMenu}>
             Projects
           </Link>
         </li>
