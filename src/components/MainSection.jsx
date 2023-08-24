@@ -1,8 +1,8 @@
-//import '../MainSection.css'
 import back from '../tina-dawson-Kim9COAIEGc-unsplash.jpg'
-//import HomeBtns from './HomeBtns'
+import HomeBtns from './HomeBtns'
 import '../MainSection.css'
 import '../NavBar.css'
+
 const MainSection = () => {
   return (
     <div className='mainSect'>
@@ -15,10 +15,8 @@ const MainSection = () => {
 
         <p>Junior Full Stack Web Developer (MERN)</p>
 
-        {/*<HomeBtns />*/}
+        <HomeBtns />
       </div>
-
-      {/*put buttons*/}
     </div>
   )
 }

@@ -2,13 +2,13 @@
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 415px) {
 h1{
   margin-top: 2px
 }
 .about{
     width: 100vw;
-    margin: 15rem 0 0 0rem;
+    margin: 16rem 0 0 0rem;
     align-content: center;
     align-items: center;
     display: flex;
@@ -19,8 +19,8 @@ h1{
     height: 80vh;
   }
   h2, p{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
     line-height: 40px;
   }
   h2{
@@ -28,13 +28,14 @@ h1{
   }
   p{
     font-size: 20px;
-    
+    margin-bottom: 60px;
   }
   
   .btn.btn-secondary.dropdown-toggle{
-   background-color: firebrick;
+   background-color: rgba(72,172,240,0.3);
    font-size: 18;
  margin-bottom: 1px;
+ 
  display: flex;
  flex-direction: column;
    align-content: center;
@@ -137,7 +138,7 @@ h1{
     width: 95vw;
     justify-content: space-evenly;
    
-    border: solid firebrick;
+    border: solid rgba(72,172,240,0.3);
   }
   .skills-left{
     display: flex;
@@ -168,10 +169,8 @@ h1{
         }
       }
 
- @media screen and (min-width: 401px) and (max-width:570px) {
- h1{
- margin-top: 2px
- }
+ @media screen and (min-width: 416px) and (max-width:570px) {
+ 
 .about{
 width: 100vw;
 margin: 7rem 0 0 0rem;
@@ -194,7 +193,7 @@ p{
  font-size: 20px;
 }
  .btn.btn-secondary.dropdown-toggle{
-   background-color: firebrick;
+   background-color: rgba(72,172,240,0.3);
   font-size: 18;
    margin-bottom: 1px;
   display: flex;
@@ -310,7 +309,7 @@ p{
             width: 95vw;
             justify-content: space-evenly;
            
-            border: solid firebrick;
+            border: solid rgba(72,172,240,0.3);
           }
 
           
@@ -332,9 +331,7 @@ p{
         
 @media screen and (min-width: 571px) {
 
-  h1{
-              margin-top: 2px
-                }
+  
             .about{
                     width: 100vw;
                     margin: 15rem 0 0 0rem;
@@ -361,7 +358,7 @@ p{
                   }
                   
                   .btn.btn-secondary.dropdown-toggle{
-                   background-color: firebrick;
+                   background-color:rgba(72,172,240,0.3);
                    font-size: 18;
                  margin-bottom: 1px;
                  display: flex;
@@ -478,7 +475,7 @@ p{
                     width: 95vw;
                     justify-content: space-evenly;
                    
-                    border: solid firebrick;
+                    border: solid rgba(72,172,240,0.3);
                   }
                   .droping{
                     display: flex;
@@ -494,7 +491,5 @@ p{
                           flex-direction: column;
                           align-items: center
                         }
-                        .heading h1{
-                          margin-top: 250px;
-                        }
+                        
                       }

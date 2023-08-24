@@ -1,9 +1,8 @@
 
-
-
 .footer{ 
-  height: 10vh; 
+  height: 7vh; 
   color:aliceblue;
+  background-color: rgba(72,172,240,0.3);
   padding: 0px;
   text-align: center;
   position: fixed;
@@ -19,9 +18,15 @@
 
 .home{
   display: flex;
+  align-items: center;
   margin-left: 20px;
 }
 
 .sk{
   margin-right: 20px;
+}
+
+.local{
+  margin-left: 5px;
+  font-size: 13px;
 }

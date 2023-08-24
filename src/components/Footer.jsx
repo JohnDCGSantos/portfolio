@@ -3,8 +3,7 @@ import { useEffect, useState } from 'react'
 
 import { FaHome, FaReact, FaNodeJs, FaCss3Alt, FaBootstrap } from 'react-icons/fa'
 import { AiFillHtml5 } from 'react-icons/ai'
-import { BiLogoMongodb } from 'react-icons/bi'
-import { TbBrandJavascript } from 'react-icons/tb'
+import { BiLogoMongodb, BiLogoJavascript } from 'react-icons/bi'
 import { SiVite } from 'react-icons/si'
 import { BsGit } from 'react-icons/bs'
 const Footer = () => {
@@ -29,19 +28,21 @@ const Footer = () => {
   return (
     <div className={`footer ${isFooterVisible ? 'visible' : ''}`}>
       <div className='home'>
-        {' '}
-        <FaHome /> Porto, Portugal
+        <FaHome />
+        <div className='local'>Porto, Portugal</div>
       </div>
       <div className='sk'>
-        <BsGit style={{ fill: 'orange', margin: '5px' }} />
-        <FaReact style={{ fill: 'aqua', margin: '5px' }} />
-        <BiLogoMongodb style={{ fill: 'green', margin: '5px' }} />
-        <AiFillHtml5 style={{ fill: 'orange', margin: '5px' }} />
-        <FaNodeJs style={{ fill: 'olive', margin: '5px' }} />
-        <TbBrandJavascript style={{ fill: 'yellow', margin: '5px' }} />
-        <FaCss3Alt style={{ fill: 'blue', margin: '5px' }} />
-        <SiVite style={{ fill: 'yellow', margin: '5px' }} />
-        <FaBootstrap style={{ fill: 'purple' }} />
+        <BsGit style={{ fill: 'orange', margin: '5px', width: '15px', height: '15px' }} />
+        <FaReact style={{ fill: 'aqua', margin: '5px', width: '15px', height: '15px' }} />
+        <BiLogoMongodb style={{ fill: 'green', margin: '5px', width: '15px', height: '15px' }} />
+        <AiFillHtml5 style={{ fill: 'orange', margin: '5px', width: '15px', height: '15px' }} />
+        <FaNodeJs style={{ fill: 'olive', margin: '5px', width: '15px', height: '15px' }} />
+        <BiLogoJavascript
+          style={{ fill: 'yellow', margin: '5px', width: '15px', height: '15px' }}
+        />
+        <FaCss3Alt style={{ fill: 'blue', margin: '5px', width: '15px', height: '15px' }} />
+        <SiVite style={{ fill: 'yellow', margin: '5px', width: '15px', height: '15px' }} />
+        <FaBootstrap style={{ fill: 'purple', width: '15px', height: '15px' }} />
       </div>
     </div>
   )

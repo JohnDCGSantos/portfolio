@@ -23,7 +23,7 @@ const WorkCardData = [
     id: 3,
     imgsrc: CosmicBlasters,
 
-    title: 'Cosmic Blasters3',
+    title: 'Cosmic Blasters',
 
     text: '"Cosmic Blasters" is a browser-based shooting game that draws inspiration from retro space-ship shooters. Developed using fundamental technologies such as JavaScript, HTML, and CSS, the game operates through DOM manipulation and object-oriented programming principles.',
 

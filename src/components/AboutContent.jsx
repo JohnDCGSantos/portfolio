@@ -62,8 +62,8 @@ const AboutContent = () => {
             {activeContent && activeContent.id === data.id && (
               <div id={`dropdown-menu-${data.id}`} className='dropdown-menu'>
                 <li>
-                  <div className='close'></div>
-                  <button onClick={() => setActiveContent(null)}>Close</button>
+                  {/*<div className='close'></div>
+                  <button onClick={() => setActiveContent(null)}>Close</button>*/}
                   <AboutBtn category={data.category} content={data} />
                 </li>
               </div>

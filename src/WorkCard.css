@@ -1,7 +1,7 @@
  
  
 .Work-container{
-  min-height:100vh;
+  min-height:80vh;
   position: absolute;
 
 }
@@ -35,44 +35,43 @@ width: 100vw;
  align-content: center;
  top: 0%;
   transform: translateY(0%);
- 
+ margin-top: 10px;
 }
 .Project-container a{
   margin-top: 15px;
 }
 .Project-card{
   background-color: black;
-  padding: 0rem 0 2rem 0;;
+  padding: 0rem 0 1rem 0;;
   margin-top: 2px;
-  width:90%;
+  width: 70vw;
+
   height: 100%;
-border: solid firebrick;
+border: solid rgba(72,172,240,0.3);
   display: flex;
   align-items: center;
   flex-direction: column;
   font-size: 18px;
   margin-bottom: 50px;
 }
-.details{
-  text-align: center; 
-  padding: 0px;
 
-}
 
 a.btn{
   height:100% ;
   width: 150px;
-  background-color: firebrick;
+  background-color:rgba(72,172,240,0.3);
   
 }
 img{
-  width: 60%;
+  width: 100%;
   margin-bottom: 10px;
   align-items: center;
 }
 .imgCardP{
   display: flex;
-  justify-content: center
+  justify-content: center;
+  width: 60%;
+
 }
 .clBtn{
   display: flex;
@@ -81,13 +80,13 @@ img{
  }
  
 .details{
-  width: 90%;
+  width: 60%;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 20px;
-  margin-right: 20px;
+  
+  text-align: center;
 }
 
 
@@ -95,7 +94,29 @@ img{
 .skills{
   font-size: 12px;
   margin-top: 20px;
-  background-color: firebrick;
+  background-color: rgba(72,172,240,0.3);
 }
 
   
+@media screen and (min-width:585px)and (max-width:781px){
+  .Work-container{
+    min-height:80vh;
+    position: absolute;
+  margin-top: 60px;
+  }
+  
+}
+@media screen and (min-width:782px)and (max-width:965px){
+  .Work-container{
+    min-height:80vh;
+    position: absolute;
+  margin-top: 100px;
+  }
+}
+@media screen and (min-width:966px){
+  .Work-container{
+    min-height:80vh;
+    position: absolute;
+  margin-top: 150px;
+  }
+}
