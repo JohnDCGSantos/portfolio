@@ -18,7 +18,7 @@ const WorkCardData = [
     title: 'Fitness App',
     text: 'Built on Express.js and EJS templating, FitnessApp empowers users to create personalized exercise plans with 400+ exercises. Craft multiple plans with instructions and images, and seamlessly manage updates or deletions.',
     skills: '    -Express · Node.js · EJS · MongoDB · JavaScript · HTML · CSS & Bootstrap-',
-    link: 'https://fitnessapp.adaptable.app/',
+    link: 'https://fitnessgo.adaptable.app',
   },
   {
     id: 3,
