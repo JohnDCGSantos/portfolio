@@ -3,7 +3,21 @@ import spaceB from '../spaceB.png'
 import project2 from '../project2.png'
 import project3 from '../project3.png'
 import DocPort from '../DocPort.png'
+import BIU from '../BIU.png'
+
 const WorkCardData = [
+  {
+    id: 9,
+    imgsrc:BIU,
+
+    title: 'Beat It Up',
+
+    text: 'Beat it Up is a comprehensive drumkit and beatmaker application built with React and Node.js. Users can sign up, create, save, and manage custom beatmakers and drumkits.Features include real-time playback, recording sessions, listening to recordings, and exporting tracks.Includes a combined mode where users can play both beatmakers and drumkits simultaneously.Future plans include a settings menu for customizing keys, colors, UI improvements, and enhanced export functionality on the combined page.',
+
+    skills: ' - Express · Node.js · Bcrypt · React · MongoDB · JavaScript · Web Audio API · JSX · HTML · CSS & Bootstrap -',
+
+    link: 'https://beatcool.netlify.app/',
+  },
   {
     id: 1,
     imgsrc: DocPort,
